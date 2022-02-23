@@ -1,0 +1,127 @@
+.blankTemplate {
+  margin-top: 20px;
+  width: 100%;
+  padding-right: 200px;
+  padding-left: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.blankTemplate .banner-top {
+  background-image: url(../images/banner-blank.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 140px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.blankTemplate .info {
+  margin: auto;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.blankTemplate .logo {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1000;
+  margin: 10px;
+  width: 180px;
+  height: 80px;
+}
+
+.blankTemplate .line-title {
+  background-color: aqua;
+  border-radius: 20px;
+  height: 4px;
+  margin: 10px auto;
+  width: 100px;
+}
+
+.blankTemplate .wrapper-login {
+  text-align: center;
+  margin: auto auto;
+  top: 60px;
+  position: relative;
+  width: 60%;
+}
+
+.blankTemplate h1,
+h2 {
+  color: #004ac6 !important;
+}
+
+.blankTemplate p {
+  color: #5087e4;
+}
+
+.blankTemplate .form-control {
+  border-radius: 6px;
+  padding: 10px 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  border: 2px solid #004ac6;
+  width: 55%;
+}
+
+.blankTemplate .form {
+  margin-top: 30px;
+}
+
+.blankTemplate .form-group label {
+  color: #5087e4;
+}
+
+.blankTemplate .btn-blue {
+  background-color: #004ac6;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 80px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  width: 56%;
+  margin-left: 75px;
+}
+
+.blankTemplate .btn-blue-2 {
+  border: 2px solid aqua;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 15px 40px;
+  color: #004ac6;
+  font-weight: bold;
+}
+
+.blankTemplate .wrapper-foo-login {
+  bottom: 8vh;
+  display: flex;
+  justify-content: space-between;
+  left: 50%;
+  margin: auto auto;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  width: 500px;
+}
+
+.blankTemplate .alert-error {
+  width: 55%;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.blankTemplate span.forget-password {
+  color: #5087e4;
+  font-size: 0.7rem;
+  position: absolute;
+  margin: 16px 0 0 -100px;
+  cursor: pointer;
+}
